@@ -21,7 +21,7 @@ set <- function(y){
 ## cacheSolve will compute the inverse of the special matrix
 ## that is returned by makeCacheMatrix function
 ## if already calculated the function will return the inverse
-## from the cache.
+## from the cache. Solves 2X2 or square matrix
 
 cacheSolve <- function(x=matrix, ...) {
         ## Return a matrix that is the inverse of 'x'
